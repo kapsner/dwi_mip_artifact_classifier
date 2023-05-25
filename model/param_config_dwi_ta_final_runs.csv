@@ -1,0 +1,10 @@
+execute,model,id,pretrained,num_classes,epochs,dropout,optimizer,momentum,nesterov,weight_decay,learning_rate,scheduler,scheduler_factor,gamma,warm_up_steps,weight_class_0,weight_class_1,augment,monitor_metric,stochastic_weight_avg
+1,densenet121,147,False,2,200,0.1,adam,0,False,0.0001,3E-05,None,0,,,1,1,True,loss/valid,False
+1,densenet121,148,False,2,200,0.15,adam,0,False,0.0001,3E-05,None,0,,,1,1,True,loss/valid,False
+1,densenet121,149,False,2,200,0.2,adam,0,False,0.0001,3E-05,None,0,,,1,1,True,loss/valid,False
+1,densenet121,183,False,2,200,0,adam,0,False,0.0001,5E-06,None,0,,,1,1,True,loss/valid,False
+1,densenet121,215,False,2,200,0,adam,0,False,0.0001,4E-06,None,0,,,1,1,True,loss/valid,False
+1,densenet121,275,False,2,200,0.15,adam,0,False,0.0001,0.0001,lambdalr,0,0.97,,1,1,True,loss/valid,False
+1,densenet121,265,False,2,200,0.25,adam,0,False,0.0001,0.0001,lambdalr,0,0.99,,1,1,True,loss/valid,False
+1,densenet121,261,False,2,200,0.3,adam,0,False,0.0001,0.0001,lambdalr,0,0.99,,1,1,True,loss/valid,False
+1,densenet121,238,False,2,200,0.35,adam,0,False,0.0001,0.0005,lambdalr,0,0.98,,1,1,True,loss/valid,False

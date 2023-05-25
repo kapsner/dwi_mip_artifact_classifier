@@ -1,0 +1,11 @@
+pandas
+torch==git+https://github.com/pytorch/pytorch.git@v1.7.1 #==1.7.0a0+57bffc3 from git
+monai==0.4.0
+matplotlib
+torchvision==0.8.2 #==0.8.0a0+2f40a48
+numpy
+pytorch_lightning==1.2.4
+torchmetrics==0.3.2
+scikit_learn
+SimpleITK==2.0.2
+scikit-image

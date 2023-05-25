@@ -1,0 +1,2 @@
+execute,model,id,pretrained,num_classes,epochs,dropout,optimizer,momentum,nesterov,weight_decay,learning_rate,scheduler,gamma,warm_up_steps,weight_class_0,weight_class_1,augment,monitor_metric,stochastic_weight_avg
+1,densenet121,1472,False,2,200,0.1,adam,0,False,0.00001,0.00003,None,,,1,1,True,loss/valid,False

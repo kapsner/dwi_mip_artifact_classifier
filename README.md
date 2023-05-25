@@ -1,5 +1,15 @@
 # MRI DWI MIP artifact classifier
 
+Requires Python version 3.8.5
+
+## Getting started
+
+```bash
+git clone https://github.com/kapsner/dwi_mip_artifact_classifier
+cd dwi_mip_artifact_classifier
+pip install -r requirements.txt
+```
+
 ## Training
 
 ```bash
